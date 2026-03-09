@@ -12,3 +12,31 @@ Descrição do Problema
 O problema central reside na ineficiência sistêmica das megacidades, onde o transporte público opera sob constante pressão de fluxos massivos e vulnerabilidades a interrupções. Tradicionalmente, as análises de transporte em São Paulo são feitas de forma desacoplada — tratando ônibus, metrô e trens como redes independentes —, o que resulta na perda de propriedades fundamentais sobre a conectividade global e sobre como falhas em uma sub-rede impactam todo o ecossistema urbano. Além disso, a saturação do sistema viário impõe altos custos econômicos e ambientais, com prejuízos bilionários relacionados ao tempo perdido e às emissões de gases de efeito estufa.
 Objetivos do Trabalho
 O objetivo geral é investigar o sistema de transporte público de São Paulo de forma acoplada, realizando uma análise sistêmica de seus fluxos e de sua resiliência através de métricas de redes complexas." -->
+
+## Estrutura
+
+```bash
+├── data/
+│   ├── raw/
+│   │   ├── gtfs/
+│   │   └── dryad/
+│   │
+│   └── processed/
+│
+├── docs/
+│
+├── notebooks/
+│
+├── outputs/
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
+## Dados
+- https://datadryad.org/dataset/doi:10.15146/R3VM28
+- GTFS SPTrans: https://www.sptrans.com.br/desenvolvedores/ 
+
+
+## Stack

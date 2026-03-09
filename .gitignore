@@ -1,2 +1,20 @@
+# dados brutos
+data/raw/
+
+
+# mac
 .DS_Store
+
+
+# ide
 vscode/
+
+
+# python
+__pycache__/
+*.pyc
+venv/
+
+
+# jupyter
+.ipynb_checkpoints/
