@@ -42,3 +42,12 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 
 
 ## Stack
+
+
+
+## Notebooks
+
+|  | Notebook | Descrição | Link |
+|---|---|---|---|
+| 1 | Exploração do GTFS | Análise exploratória dos dados GTFS da SPTrans | <a target="_blank" href="https://colab.research.google.com/github/cintia-shinoda/tcc-lab/blob/main/notebooks/01_exploracao-gtfs.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a> |
