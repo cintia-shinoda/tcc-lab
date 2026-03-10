@@ -18,16 +18,22 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 ```bash
 ├── data/
 │   ├── raw/
+│   │   ├── dryad/
 │   │   ├── gtfs/
-│   │   └── dryad/
+│   │   └── ibge/
 │   │
 │   └── processed/
 │
 ├── docs/
+│   ├── fontes-de-dados.pdf      # Thiago Akira Ferreira
+│   └── tema.md                  # Fernando Miguel Escribano Martinez
 │
 ├── images/
+│   └── MER-GTFS-SPTrans.png     # Willy Paulino de Oliveira Gomes
 │
 ├── notebooks/
+│   ├── 00-exploracao-dryad.ipynb
+│   └── 01_exploracao-gtfs.ipynb
 │
 ├── outputs/
 │
@@ -37,11 +43,12 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 ```
 
 ## Dados
-- https://datadryad.org/dataset/doi:10.15146/R3VM28
-- GTFS SPTrans: https://www.sptrans.com.br/desenvolvedores/ 
+- Dryad: https://datadryad.org/dataset/doi:10.15146/R3VM28
+- GTFS SPTrans: https://www.sptrans.com.br/desenvolvedores/
+- IBGE: https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2022/UFs/SP/SP_Municipios_2022.zip
 
 
-## Stack
+<!-- ## Stack -->
 
 
 
@@ -49,5 +56,6 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 
 |  | Notebook | Descrição | Link |
 |---|---|---|---|
+| 0 | Exploração do Dryad | Análise exploratória dos dados de bilhetagem da SPTrans | <a target="_blank" href="https://colab.research.google.com/github/cintia-shinoda/tcc-lab/blob/main/notebooks/00-exploracao-dryad.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 | 1 | Exploração do GTFS | Análise exploratória dos dados GTFS da SPTrans | <a target="_blank" href="https://colab.research.google.com/github/cintia-shinoda/tcc-lab/blob/main/notebooks/01_exploracao-gtfs.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a> |
