@@ -1,5 +1,13 @@
 # Testes para o TCC
 
+<p align="center">
+  <img src= "https://img.shields.io/badge/status-in%20progress-yellow" alt="Status do Projeto" />
+  <img src="https://img.shields.io/github/last-commit/cintia-shinoda/tcc-lab" alt="GitHub Last Commit" />
+  <img src="https://img.shields.io/github/forks/cintia-shinoda/tcc-lab" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/stars/cintia-shinoda/tcc-lab" alt="GitHub Stars" />
+</p>
+
+<br>
 
 Este repositório contém os testes realizados para o Trabalho de Conclusão de Curso (TCC) **"INTELIGÊNCIA URBANA E MOBILIDADE: ANÁLISE SISTÊMICA DE FLUXOS E RESILIÊNCIA EM REDES DE TRANSPORTE PÚBLICO ATRAVÉS DA CIÊNCIA DE DADOS E TEORIA DOS GRAFOS"** requerimento do curso Bacharelado em Ciência de Dados na UNIVESP (Universidade Virtual do Estado de São Paulo).
 
@@ -13,6 +21,8 @@ O problema central reside na ineficiência sistêmica das megacidades, onde o tr
 Objetivos do Trabalho
 O objetivo geral é investigar o sistema de transporte público de São Paulo de forma acoplada, realizando uma análise sistêmica de seus fluxos e de sua resiliência através de métricas de redes complexas." -->
 
+---
+
 ## Estrutura
 
 ```bash
@@ -23,19 +33,28 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 │   │   └── ibge/
 │   │
 │   └── processed/
+│       └── metricas_centralidade.csv
 │
 ├── docs/
-│   ├── fontes-de-dados.pdf      # Thiago Akira Ferreira
-│   └── tema.md                  # Fernando Miguel Escribano Martinez
+│   ├── 0-tema.md                  # Fernando Miguel Escribano Martinez
+│   ├── 1-fontes-de-dados.pdf      # Thiago Akira Ferreira
+│   ├── 2-bibliografia.ipynb       # Cintia Izumi Shinoda
+│   └──3-hipoteses.ipynb           # Cintia Izumi Shinoda
 │
 ├── images/
-│   └── MER-GTFS-SPTrans.png     # Willy Paulino de Oliveira Gomes
+│   └── MER-GTFS-SPTrans.png       # Willy Paulino de Oliveira Gomes
 │
 ├── notebooks/
-│   ├── 00-exploracao-dryad.ipynb
-│   └── 01_exploracao-gtfs.ipynb
+│   ├── 00_eda-dryad.ipynb
+│   └── 01_eda-gtfs.ipynb
 │
 ├── outputs/
+│   ├── headway_por_hora.png
+│   ├── headway-por-horario.png
+│   ├── mapa_centralidades.png
+│   ├── mapa_fluxo_rede.png
+│   ├── mapa_interativo_centralidades.html
+│   └── mapa_paradas_modal_sp.png
 │
 ├── .gitignore
 ├── README.md
