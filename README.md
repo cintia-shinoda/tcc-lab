@@ -9,9 +9,9 @@
 
 <br>
 
-Este repositório contém os testes realizados para o Trabalho de Conclusão de Curso (TCC) **"INTELIGÊNCIA URBANA E MOBILIDADE: ANÁLISE SISTÊMICA DE FLUXOS E RESILIÊNCIA EM REDES DE TRANSPORTE PÚBLICO ATRAVÉS DA CIÊNCIA DE DADOS E TEORIA DOS GRAFOS"** requerimento do curso Bacharelado em Ciência de Dados na UNIVESP (Universidade Virtual do Estado de São Paulo).
+Este repositório contém os testes realizados para o Trabalho de Conclusão de Curso (TCC) **"VULNERABILIDADE E RESILIÊNCIA DA REDE DE TRANSPORTE PÚBLICO DE SÃO PAULO: UMA ANÁLISE TOPOLÓGICA BASEADA EM TEORIA DOS GRAFOS"** requerimento do curso Bacharelado em Ciência de Dados na UNIVESP (Universidade Virtual do Estado de São Paulo).
 
- Os testes foram conduzidos para validar as hipóteses e os resultados apresentados no trabalho.
+ Os testes foram conduzidos para exploração e validar as hipóteses e os resultados apresentados no trabalho.
 
 
 
@@ -26,6 +26,7 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 ## Estrutura
 
 ```bash
+tcc-lab/
 ├── data/
 │   ├── raw/
 │   │   ├── dryad/
@@ -36,10 +37,10 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 │       └── metricas_centralidade.csv
 │
 ├── docs/
+│   ├── bibliografia-inicial/
+│   ├── reunioes/
 │   ├── 0-tema.md                  # Fernando Miguel Escribano Martinez
-│   ├── 1-fontes-de-dados.pdf      # Thiago Akira Ferreira
-│   ├── 2-bibliografia.ipynb       # Cintia Izumi Shinoda
-│   └──3-hipoteses.ipynb           # Cintia Izumi Shinoda
+│   └── 1-fontes-de-dados.pdf      # Thiago Akira Ferreira
 │
 ├── images/
 │   └── MER-GTFS-SPTrans.png       # Willy Paulino de Oliveira Gomes
@@ -54,7 +55,8 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 │   ├── mapa_centralidades.png
 │   ├── mapa_fluxo_rede.png
 │   ├── mapa_interativo_centralidades.html
-│   └── mapa_paradas_modal_sp.png
+│   ├── mapa_paradas_modal_sp.png
+│   └── mapa-headway-por-horario.png
 │
 ├── .gitignore
 ├── README.md
@@ -67,10 +69,11 @@ O objetivo geral é investigar o sistema de transporte público de São Paulo de
 - IBGE: https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2024/
 
 
-<!-- ## Stack -->
-<!-- - Pandas
+## Stack
+- Python 3.11.x
+- Pandas
 - Geopandas
-- NetworkX -->
+- NetworkX
 
 
 ## Notebooks
