@@ -1,0 +1,35 @@
+{
+  "model_type": "GradientBoostingClassifier",
+  "framework": "scikit-learn",
+  "features": [
+    "degree",
+    "degree_centrality",
+    "closeness_centrality",
+    "lat",
+    "lon"
+  ],
+  "label_map": {
+    "0": "Peripheral",
+    "1": "Intermediate",
+    "2": "Hub"
+  },
+  "metrics": {
+    "f1_macro_test": 0.59,
+    "accuracy_test": 0.68,
+    "f1_macro_cv": 0.426
+  },
+  "training": {
+    "n_estimators": 200,
+    "max_depth": 5,
+    "min_samples_leaf": 10,
+    "class_balancing": "sample_weight_balanced",
+    "test_size": 0.2
+  },
+  "feature_importance": {
+    "lat": 0.2793,
+    "lon": 0.2604,
+    "closeness_centrality": 0.2566,
+    "degree": 0.1061,
+    "degree_centrality": 0.0976
+  }
+}
